@@ -8,7 +8,7 @@ export default function HeaderStats() {
   return (
     <>
       {/* Header */}
-      <div className="relative text-samecolor md:pt-12 pb-32 pt-12">
+      <div className="relative text-samecolor md:pt-12 pb-32 pt-0">
       </div>
     </>
   );

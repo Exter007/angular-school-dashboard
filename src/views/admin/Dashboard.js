@@ -19,7 +19,7 @@ const Alert = () => {
             <i className="fas fa-bell" />
           </span>
           <span className="align-middle mr-8">
-            <b className="capitalize"> lightBlue!</b> This is a lightBlue alert -
+            <b className="capitalize"> Red!</b> This is a red alert -
             check it out!
           </span>
           <button
@@ -37,6 +37,8 @@ const Alert = () => {
 export default function Dashboard() {
   return (
     <>
+      <div className="w-full xl:w-11/12 xl:mb-0 px-4"><Alert /></div>
+
       <div className="flex flex-wrap">
         <div className="w-full xl:w-8/12 mb-12 xl:mb-0 px-4">
           <CardLineChart />

@@ -14,10 +14,10 @@ export default function FooterAdmin() {
                   href="https://www.creative-tim.com?ref=nr-footer-admin"
                   className="text-blueGray-500 hover:text-blueGray-700 text-sm font-semibold py-1"
                 >
-                  Creative Tim
+                  Pierre-Louis D'Agostino
                 </a>
               </div>
-            </div>
+            </div>{/*
             <div className="w-full md:w-8/12 px-4">
               <ul className="flex flex-wrap list-none md:justify-end  justify-center">
                 <li>
@@ -53,7 +53,7 @@ export default function FooterAdmin() {
                   </a>
                 </li>
               </ul>
-            </div>
+            </div>*/}
           </div>
         </div>
       </footer>
