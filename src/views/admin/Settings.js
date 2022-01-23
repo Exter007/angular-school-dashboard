@@ -4,6 +4,8 @@ import React from "react";
 
 import CardSettings from "components/Cards/CardSettings.js";
 import CardProfile from "components/Cards/CardProfile.js";
+import CardInput from "components/Cards/CardInput.js";
+import Form from "components/Forms/Form.js";
 
 export default function Settings() {
   return (
@@ -11,6 +13,7 @@ export default function Settings() {
       <div className="flex flex-wrap">
         <div className="w-full lg:w-8/12 px-4">
           <CardSettings />
+          <div><Form /></div>
         </div>
         <div className="w-full lg:w-4/12 px-4">
           <CardProfile />

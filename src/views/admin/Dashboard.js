@@ -6,6 +6,7 @@ import CardLineChart from "components/Cards/CardLineChart.js";
 import CardBarChart from "components/Cards/CardBarChart.js";
 import CardPageVisits from "components/Cards/CardPageVisits.js";
 import CardSocialTraffic from "components/Cards/CardSocialTraffic.js";
+import CardInput from "components/Cards/CardInput.js";
 
 const Alert = () => {
   const [showAlert, setShowAlert] = React.useState(true);
@@ -38,7 +39,7 @@ export default function Dashboard() {
   return (
     <>
       <div className="w-full xl:w-11/12 xl:mb-0 px-4"><Alert /></div>
-
+      <div><CardInput /></div>
       <div className="flex flex-wrap">
         <div className="w-full xl:w-8/12 mb-12 xl:mb-0 px-4">
           <CardLineChart />
